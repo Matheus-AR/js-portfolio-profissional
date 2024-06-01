@@ -39,19 +39,11 @@
         "Flexibilidade"
       ]
     },
-    "idiomas": [
-      {
-        "nome": "Português",
-        "nivel": "Nativo"
-      },
-      {
-        "nome": "Inglês",
-        "nivel": "Intermediário"
-      },
-      {
-        "nome": "Espanhol",
-        "nivel": "Básico"
-      }
+    "languages": [
+      "Português BR",
+      "Inglês (básico)",
+      "Espanhol (básico)",
+      "Italiando (básico)"
     ],
     "educacao": [
       {

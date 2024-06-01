@@ -16,6 +16,14 @@ body {
 
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 .main::before,
 .main::after {
     content: '';

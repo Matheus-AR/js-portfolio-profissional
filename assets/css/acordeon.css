@@ -27,6 +27,12 @@
     border: none;
 }
 
+.acordeon .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
 .acordeon .trigger:hover {
     cursor: pointer;
 }
@@ -54,7 +60,8 @@
 }
 
 .acordeon.open .content {
-    display: inline-block;
+    display: block;
+    padding: 0 1rem 1rem 2rem;
     height: auto;
     opacity: 1;
 }

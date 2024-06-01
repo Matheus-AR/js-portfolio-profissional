@@ -108,13 +108,13 @@
     "portfolio": [
       {
         "name": "Crie o seu portfolio profissional (DIO)",
-        "gitHub": "https://github.com/Matheus-AR/js-portfolio-profissional",
-        "git": true
+        "url": "https://github.com/Matheus-AR/js-portfolio-profissional",
+        "github": true
       },
       {
-        "nome": "Crie uma Pokedex (DIO)",
-        "gitHub": "https://github.com/Matheus-AR/js-developer-pokedex",
-        "git": true
+        "name": "Crie uma Pokedex (DIO)",
+        "url": "https://github.com/Matheus-AR/js-developer-pokedex",
+        "github": true
       }
     ],
     "experiencias": [

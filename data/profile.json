@@ -117,15 +117,21 @@
         "github": true
       }
     ],
-    "experiencias": [
+    "professionalExperience": [
       {
-        "nome": "Education Tech Lead ",
-        "descricao": "",
-        "instituicao": "Digital Innovation One (DIO)",
-        "periodo": {
-          "inicio": "03/2021",
-          "fim": "Atualmente"
-        }
+        "name": "Back-end Developer",
+        "period": "2021 - 2022",
+        "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+      },
+      {
+        "name": "Mobile Developer",
+        "period": "2022 - 2023",
+        "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+      },
+      {
+        "name": "Front-end Developer",
+        "period": "2023 - 2024",
+        "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
       }
     ]
   }

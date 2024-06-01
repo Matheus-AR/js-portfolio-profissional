@@ -32,23 +32,25 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="./assets/img/perfil.png" alt="Foto do perfil" class="photo">
+            <img src="./assets/img/my-photo.png" alt="Foto do perfil" id="profile.photo" class="photo">
             
-            <h1 class="title">Olá, <br />eu sou Matheus A Rodrigues</h1>
+            <h1 class="title">
+                Olá, <br />eu sou <span id="profile.name">Carregando...</span>
+            </h1>
     
             <div class="information">
-                <p class="job">Junior Developer</p>
-                <p class="location">São Paulo - BR</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:(11) 9 9999-9999">(11) 9 9999-9999</a>
+                    <a href="tel:(11) 9 9999-9999" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:ex@mail.com">ex@mail.com</a>
+                    <a href="mailto:ex@mail.com" id="profile.email">Carregando...</a>
                 </p>
             </div>
         </header>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 <span class="title">
                     <h2>Skills</h2>
@@ -59,30 +61,16 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Ferramentas:</h3>
-                        <ul>
-                            <li>
-                                <img src="./assets/img/icons/tools/node.svg" alt="node" title="node">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/tools/js.svg" alt="javascript" title="javascript">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/tools/css.svg" alt="css" title="css">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icons/tools/react.svg" alt="react" title="react">
-                            </li>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
                     </section>
     
                     <section class="personal">
                         <h3>Pessoal:</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Facilidade de comunicação</li>
-                            <li>Organização</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Flexibilidade</li>
+                        <ul id="profile.skills.softskills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
@@ -160,5 +148,7 @@
     </main>
 
     <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
